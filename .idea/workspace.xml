@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46c92e96-5dd6-49ec-a40a-7b67f3178c39" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="97" />
+              <first_editor relative-caret-position="290">
+                <caret line="56" column="117" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="117" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -52,6 +51,7 @@
         <option value="darkcode0x00" />
       </list>
     </option>
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -94,12 +94,6 @@
               <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
               <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
               <item name="brainiac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,14 +252,27 @@
       <option name="project" value="LOCAL" />
       <updated>1520793348135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lib brainiac">
+      <created>1520811496229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520811496229</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lib brainiac">
+      <created>1520811704979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520811704979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="691" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.355175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.355175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291815" sideWeight="0.5026061" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291815" sideWeight="0.4973939" order="7" side_tool="false" content_ui="tabs" />
@@ -339,8 +346,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="97" />
+          <first_editor relative-caret-position="290">
+            <caret line="56" column="117" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="117" />
             <folding />
           </first_editor>
           <second_editor />
