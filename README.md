@@ -1,5 +1,5 @@
 #brainiac - CTF toolkit
-![brainiac logo](https://github.com/Gallopsled/pwntools/blob/stable/docs/source/logo.png?raw=true)
+![brainiac logo](https://raw.githubusercontent.com/darkcode357/brainiac_pwn/master/brainiac/brainiac-2.jpg?raw=true)
 
 [![Docs](https://readthedocs.org/projects/pwntools/badge/?version=stable)](https://docs.pwntools.com/)
 [![PyPI](https://img.shields.io/badge/pypi-v3.12.0-green.svg?style=flat)](https://pypi.python.org/pypi/pwntools/)
