@@ -1,7 +1,7 @@
-#brainiac - CTF toolkit
+brainiac - CTF toolkit
 ![brainiac logo](https://raw.githubusercontent.com/darkcode357/brainiac_pwn/master/brainiac/brainiac-2.jpg?raw=true)
 
-#[![PyPI](https://img.shields.io/badge/pypi-v3.12.0-green.svg?style=flat)](https://pypi.python.org/pypi/pwntools/)
+[![PyPI](https://img.shields.io/badge/pypi-v3.12.0-green.svg?style=flat)](https://pypi.python.org/pypi/pwntools/)
 [![Travis](https://travis-ci.org/darkcode357/brainiac_pwn.svg)](https://travis-ci.org/darkcode357/brainiac_pwn)
 [![Coveralls](https://img.shields.io/sonar/4.2/http/sonar.petalslink.com/org.ow2.petals%3Apetals-se-ase/tech_debt.svg)](https://coveralls.io/github/Gallopsled/pwntools?branch=dev)
 [![Twitter](https://img.shields.io/badge/twitter-pwntools-4099FF.svg?style=flat)](https://twitter.com/pwntools)
