@@ -1,10 +1,9 @@
 #brainiac - CTF toolkit
 ![brainiac logo](https://raw.githubusercontent.com/darkcode357/brainiac_pwn/master/brainiac/brainiac-2.jpg?raw=true)
 
-#[![Docs](https://readthedocs.org/projects/pwntools/badge/?version=stable)](https://docs.pwntools.com/)
 #[![PyPI](https://img.shields.io/badge/pypi-v3.12.0-green.svg?style=flat)](https://pypi.python.org/pypi/pwntools/)
-[![Travis](https://travis-ci.org/Gallopsled/pwntools.svg)](https://travis-ci.org/Gallopsled/pwntools)
-[![Coveralls](https://img.shields.io/coveralls/Gallopsled/pwntools/dev.svg)](https://coveralls.io/github/Gallopsled/pwntools?branch=dev)
+[![Travis](https://travis-ci.org/darkcode357/brainiac_pwn.svg)](https://travis-ci.org/darkcode357/brainiac_pwn)
+[![Coveralls](https://img.shields.io/sonar/4.2/http/sonar.petalslink.com/org.ow2.petals%3Apetals-se-ase/tech_debt.svg)](https://coveralls.io/github/Gallopsled/pwntools?branch=dev)
 [![Twitter](https://img.shields.io/badge/twitter-pwntools-4099FF.svg?style=flat)](https://twitter.com/pwntools)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
