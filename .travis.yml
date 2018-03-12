@@ -33,3 +33,6 @@ install:
   - pip install --upgrade --requirement docs/requirements.txt
 before_script:
   -echo "ok"
+after_success:
+  - coveralls
+  - source travis/update_demo.sh
