@@ -5,7 +5,7 @@ import struct
 import logging
 import codecs
 import hashlib
-class cores:
+class Cores:
     '''lib cores
     ex:
         brainiac_utils.cores.$cor

@@ -1,7 +1,31 @@
 import itertools
 import logging
-from .cores import cores
-class debug:
+class Cores:
+    '''lib cores
+    ex:
+        brainiac_utils.cores.$cor
+
+            cyanClaro = "\033[1;36m"
+            vermelho = '\033[31;1m'
+            verde = '\033[32;1m'
+            azul = '\033[34;1m'
+            normal = '\033[0;0m'
+            amarelo = '\033[1;33m'
+            ciano = '\033[46m'
+            magenta = '\033[45m'
+            normal = '\033[0;0m'
+    '''
+    cyanClaro = "\033[1;36m"
+    vermelho = '\033[31;1m'
+    verde = '\033[32;1m'
+    azul = '\033[34;1m'
+    normal = '\033[0;0m'
+    amarelo = '\033[1;33m'
+    ciano = '\033[46m'
+    magenta = '\033[45m'
+    normal = '\033[0;0m'
+
+class Debug:
     """ex:debug
             brainiac_utils.debug.INFO() # obtem informacoes sovre o processo
             brainiac_utils.debug.CRITICAL() #informacoes criticas
@@ -18,16 +42,16 @@ class debug:
         self.CRITICAL = CRITICAL
 
     def ERRO(self):
-        logging.error(cores.cores.verde + self)
+        logging.error(Cores.verde + self)
 
     def INFO(self):
-        logging.info(cores.cores.azul + self)
+        logging.info(Cores.azul + self)
 
     def CRITICAL(self):
-        logging.critical(cores.cores.azul + self)
+        logging.critical(Cores.azul + self)
 
     def AVISO(self):
-        logging.warning(cores.cores.amarelo + self)
+        logging.warning(Cores.amarelo + self)
 
     def DEBUG(self):
-        logging.debug(cores.cores.azul + self)
+        logging.debug(Cores.cores.azul + self)

@@ -7,7 +7,7 @@ import codecs
 import hashlib
 
 
-class convert:
+class Convert:
     def __init__(self):
         pass
 
