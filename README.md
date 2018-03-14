@@ -7,8 +7,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-pwntools-4099FF.svg?style=flat)](https://twitter.com/pwntools)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
-Pwntools is a CTF framework and exploit development library. Written in Python, it is designed for rapid prototyping and development, and intended to make exploit writing as simple as possible.
-
+brainiac_pwn e uma biblioteca de desenvovimento mult-plataforma , voltado para o desenvovimento de ferrementas, ajudando profisionais 
 ```python
 from pwn import *
 context(arch = 'i386', os = 'linux')

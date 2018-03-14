@@ -1,4 +1,3 @@
-import itertools
 import logging
 class Cores:
     '''lib cores
