@@ -1,5 +1,21 @@
 import hashlib
 class Hash_encode:
+    """
+    suport para hash_encode
+    =>sha3_256
+    =>ha256
+    =>blake2b
+    =>sha384
+    =>md5
+    =>sha3_512
+    =>sha512
+    =>sha512
+    =>sha1
+    =>sha3_224
+    =>blake2s
+    =>sha3_384
+    =>sha224
+    """
     def __init__(self, sha3_256, sha256, blake2b, sha384, md5, sha3_512, sha512, sha1, sha3_224, blake2s, sha3_384,
                  sha224):
         self.sha3_256 = sha3_256
