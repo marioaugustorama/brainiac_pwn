@@ -47,10 +47,10 @@ class Debug:
         logging.info(Cores.azul + self)
 
     def CRITICAL(self):
-        logging.critical(Cores.azul + self)
+        logging.critical(Cores.amarelo + self)
 
     def AVISO(self):
         logging.warning(Cores.amarelo + self)
 
     def DEBUG(self):
-        logging.debug(Cores.cores.azul + self)
+        logging.debug(Cores.amarelo + self)
