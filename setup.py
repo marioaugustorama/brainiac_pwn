@@ -18,6 +18,7 @@ setup(
         'wget',
         'python-nmap',
         'GitPython',
+        'nclib'
     ],
   version = '3.5',
   description='lib voltada para o desenvolvimento de ferramentas de pentest',
