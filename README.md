@@ -19,17 +19,17 @@ from brainiac import brainiac_utils
 from brainiac import brainiac_colors
 ```
 
-# Try It Now!
+# tente agora
 
 Agora você pode fazer uma demonstração ao vivo de brainiac_pwn, #[right in your browser](https://demo.pwntools.com).
 
-# Documentation
+# Documentacao
 
 Our documentation is available at [docs.pwntools.com](https://docs.pwntools.com/)
 
 To get you started, we've provided some example solutions for past CTF challenges in our [write-ups repository](https://github.com/Gallopsled/pwntools-write-ups).
 
-# Installation
+# instalacao
 
 O brainiac_pwn tem A maioria das funcionalidades deve funcionar em qualquer distribuição semelhante a Posix (Debian, Arch, FreeBSD, OSX, etc.). É necessário o Python 3.6.
 
@@ -54,12 +54,19 @@ apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-
 No entanto, alguns dos recursos (assembling/disassembling foreign architectures) exigem dependências não-Python. Para mais informações, veja o #[complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
 
 
-# Contribution
-
+# Contribuicao
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-# Contact
-Se voce tiver alguma duvida por favor entre em contato atraver do  [bug report](https://github.com/Gallopsled/pwntools/issues)
-at [`#facebook_page` on Freenode](irc://irc.freenode.net/pwntools) and ask away.
-Click [here](https://kiwiirc.com/client/irc.freenode.net/pwntools) to connect.
-There is also a [mailing list](https://groups.google.com/forum/#!forum/pwntools-users) for higher latency discussion.
+# erros
+Se voce tiver alguma duvida por favor entre em contato atraver do  [bug report](https://github.com/darkcode357/brainiac_pwn/issues)
+
+# canais de contatos
+[facebook_page](https://www.facebook.com/brainiacpwntoolkit/) atualizacoes sobre a lib
+
+[facebook_grupo](https://www.facebook.com/groups/1775847809390476/) debates/comunidade
+
+[canal_irc](https://kiwiirc.com/client/irc.freenode.net/pwntools) debates/comunidade
+
+[site futuramente](=) assim que eu pegar minha hospedagem
+
+[forum futuramente](=) assim que eu pegar minha hospedagem
