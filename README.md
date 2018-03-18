@@ -9,18 +9,19 @@
 
 brainiac_pwn e uma biblioteca de desenvovimento mult-plataforma , voltado para o desenvovimento de ferrementas, ajudando profisionais 
 ```python
-from pwn import *
-context(arch = 'i386', os = 'linux')
-
-r = remote('exploitme.example.com', 31337)
-# EXPLOIT CODE GOES HERE
-r.send(asm(shellcraft.sh()))
-r.interactive()
+from brainiac import *
+from brainiac import brainiac_pwn
+from brainiac import brainiac_web
+from brainiac import brainiac_payloads
+from brainiac import brainiac_tools
+from brainiac import brainiac_conver
+from brainiac import brainiac_utils
+from brainiac import brainiac_colors
 ```
 
 # Try It Now!
 
-You can now do a live demo of Pwntools, [right in your browser](https://demo.pwntools.com).
+Agora você pode fazer uma demonstração ao vivo de brainiac_pwn, #[right in your browser](https://demo.pwntools.com).
 
 # Documentation
 
@@ -30,18 +31,27 @@ To get you started, we've provided some example solutions for past CTF challenge
 
 # Installation
 
-Pwntools is best supported on 64-bit Ubuntu LTE releases (12.04, 14.04, and 16.04).  Most functionality should work on any Posix-like distribution (Debian, Arch, FreeBSD, OSX, etc.).  Python 2.7 is required.
+O brainiac_pwn tem A maioria das funcionalidades deve funcionar em qualquer distribuição semelhante a Posix (Debian, Arch, FreeBSD, OSX, etc.). É necessário o Python 3.6.
 
-Most of the functionality of pwntools is self-contained and Python-only.  You should be able to get running quickly with
+A maior parte da funcionalidade do brainiac_pwn é autônoma e somente rodara com o python 3.6
+```
+O metodo de instalacao conta com uma metodo de auto detect para fazer a devidas configuracoes em sua maquina
+atualmente suportada em distro bases(debian(deb)/ubuntu(deb)) base(arch-linux(pkg))
 
-```sh
+temos 2 tipos de instalacao
+
+1=[instalacao via github]
+1-1 git clone https://github.com/darkcode357/brainiac_pwn
+1-2 cd brainiac_pwn
+
+2=[instalacao via pip/easy_install]
+2-1 easy_install3 brainiac_pwn
+2-2 pip3 install brainiac_pwn
 apt-get update
 apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
-pip install --upgrade pip
-pip install --upgrade pwntools
-```
 
-However, some of the features (assembling/disassembling foreign architectures) require non-Python dependencies.  For more information, see the [complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
+```
+No entanto, alguns dos recursos (assembling/disassembling foreign architectures) exigem dependências não-Python. Para mais informações, veja o #[complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
 
 
 # Contribution
@@ -49,7 +59,7 @@ However, some of the features (assembling/disassembling foreign architectures) r
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 # Contact
-If you have any questions not worthy of a [bug report](https://github.com/Gallopsled/pwntools/issues), feel free to ping us
-at [`#pwntools` on Freenode](irc://irc.freenode.net/pwntools) and ask away.
+Se voce tiver alguma duvida por favor entre em contato atraver do  [bug report](https://github.com/Gallopsled/pwntools/issues)
+at [`#facebook_page` on Freenode](irc://irc.freenode.net/pwntools) and ask away.
 Click [here](https://kiwiirc.com/client/irc.freenode.net/pwntools) to connect.
 There is also a [mailing list](https://groups.google.com/forum/#!forum/pwntools-users) for higher latency discussion.

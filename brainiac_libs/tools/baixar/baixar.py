@@ -29,3 +29,4 @@ class Baixar():
             arquivo = wget.download(url=url, out=local)
             print(Cores.amarelo + "=> " + Cores.verde + arquivo)
 
+Baixar.baixar("http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png","/tmp")

@@ -26,7 +26,7 @@ class Cores:
 
 class Debug:
     """ex:debug
-            brainiac_utils.debug.INFO() # obtem informacoes sovre o processo
+            brainiac_utils.debug.INFO() # obtem informacoes sobre o processo
             brainiac_utils.debug.CRITICAL() #informacoes criticas
             brainiac_utils.debug.ERRO() # informacoes de erro
             brainiac_utils.debug.DEBUG() #debug da funcao

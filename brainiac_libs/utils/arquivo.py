@@ -48,7 +48,3 @@ class Arquivos():
 
             Debug.CRITICAL("escrita "+Cores.verde+decode)
 
-Arquivos.escrever_encode16("/home/darkcode.txt","""dsa
-darkcode
-zerocode
-""")

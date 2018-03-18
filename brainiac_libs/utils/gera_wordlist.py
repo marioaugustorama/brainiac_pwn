@@ -110,3 +110,5 @@ class Gera_wordlist():
                         print(''.join(xs))
                     else:
                         pass
+
+Gera_wordlist.Gera(1,4,"abcde".upper(),"test",verbose=True)
