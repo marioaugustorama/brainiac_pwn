@@ -1,12 +1,9 @@
-from brainiac_libs.utils.debug import Debug
-from brainiac_libs.utils.cores import Cores
-from brainiac_libs.utils.encode import Encode
+from brainiac_libs.brainiac_debug.debug import Debug
+from brainiac_libs.brainiac_cores.cores import *
 from base64 import b64encode
 from base64 import b32encode
 from base64 import b16encode
-from base64 import b64decode
-from base64 import b32decode
-from base64 import b16decode
+
 
 class Arquivos():
     def __init__(self,ler,escrever,tabulacao,encode):
@@ -20,31 +17,30 @@ class Arquivos():
     def escrever(arquivo,escrever):
         with open(arquivo,"w") as ll:
             ll.write(escrever)
-            Debug.CRITICAL("arquivo: "+arquivo)
+            Debug.CRITICAL("brainiac_arquivo: "+arquivo)
 
-            Debug.CRITICAL("escrita "+Cores.verde+escrever)
+            Debug.CRITICAL("escrita")
     def escrever_encode64(arquivo,escrever):
         with open(arquivo,"w") as ll:
             encode = b64encode(bytes(escrever, 'utf-8'))
             decode = str(encode)[2:-1]
             ll.write(decode)
-            Debug.CRITICAL("arquivo: "+arquivo)
+            Debug.INFO("Arquivo: "+arquivo)
 
-            Debug.CRITICAL("escrita "+Cores.verde+decode)
+            Debug.CRITICAL("escrita "+decode)
+
     def escrever_encode32(arquivo,escrever):
         with open(arquivo,"w") as ll:
             encode = b32encode(bytes(escrever, 'utf-8'))
             decode = str(encode)[2:-1]
             ll.write(decode)
-            Debug.CRITICAL("arquivo: "+arquivo)
-
-            Debug.CRITICAL("escrita "+Cores.verde+decode)
+            Debug.CRITICAL("Arquivo: "+arquivo)
+            Debug.CRITICAL("escrita "+decode)
     def escrever_encode16(arquivo,escrever):
         with open(arquivo,"w") as ll:
             encode = b16encode(bytes(escrever, 'utf-8'))
             decode = str(encode)[2:-1]
             ll.write(decode)
-            Debug.CRITICAL("arquivo: "+arquivo)
-
-            Debug.CRITICAL("escrita "+Cores.verde+decode)
+            Debug.CRITICAL("brainiac_arquivo: "+arquivo)
+            Debug.CRITICAL("escrita "+decode)
 

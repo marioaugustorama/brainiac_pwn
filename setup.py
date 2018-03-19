@@ -28,6 +28,7 @@ setup(
         'requests',
         'pip',
         'tox',
+        'rarfile',
         'pygments',
         'pysocks',
         'python-dateutil',

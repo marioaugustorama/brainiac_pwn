@@ -101,14 +101,11 @@ class Gera_wordlist():
         min = minimo
         max = maximo
         chrs = char
-        with open(word_list_name, "w") as fl:
-            min_length, max_length = int(min), int(max)
-            for n in range(min_length, max_length + 1):
-                for xs in itertools.product(chrs, repeat=n):
-                    dsa = fl.write(''.join(xs) + "\n")
-                    if verbose == True:
-                        print(''.join(xs))
-                    else:
-                        pass
+        min_length, max_length = int(min), int(max)
+        for n in range(min_length, max_length + 1):
+            for xs in itertools.product(chrs, repeat=n):
+                if verbose == True:
+                    print(''.join(xs))
+                else:
+                    pass
 
-Gera_wordlist.Gera(1,4,"abcde".upper(),"test",verbose=True)

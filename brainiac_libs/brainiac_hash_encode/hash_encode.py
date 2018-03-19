@@ -1,7 +1,7 @@
 import hashlib
 class Hash_encode:
     """
-    suport para hash_encode
+    suport para brainiac_hash_encode
     =>sha3_256
     =>ha256
     =>blake2b
