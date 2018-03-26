@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c92e96-5dd6-49ec-a40a-7b67f3178c39" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/brainiac/toplevel.py" afterPath="$PROJECT_DIR$/brainiac/toplevel.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py" />
       <change beforePath="$PROJECT_DIR$/brainiac_libs/tools/baixar/baixar.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/brainiac_libs/tools/services/ssh.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/brainiac_libs/utils/arquivo.py" afterPath="" />
@@ -27,70 +29,148 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="toplevel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainiac/toplevel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="vcs:///home/darkcode/Documents/brainiac_pwn/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="baixar.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="192">
+                <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+                <folding>
+                  <element signature="e#0#11#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-119">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="vcs:///home/darkcode/Documents/brainiac_pwn/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac/__init__.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arquivo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/arquivo.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/__init__.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="decode.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_decode/decode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="debug.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="141">
+                <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="-119">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="cores.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="204">
+                <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+                <folding>
+                  <element signature="e#124#897#1" expanded="false" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="encode.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_encode/encode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -113,6 +193,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="darkcode357 &lt;darkcode357@gmail.com&gt;" />
         <option value="darkcode0x00" />
       </list>
     </option>
@@ -133,7 +214,6 @@
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/brainiac_libs/utils/test.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/tools/tooplevel.py" />
-        <option value="$PROJECT_DIR$/brainiac/__init__.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/utils/__init__.py" />
         <option value="$PROJECT_DIR$/setup.cfg" />
         <option value="$PROJECT_DIR$/.pypirc" />
@@ -157,7 +237,6 @@
         <option value="$PROJECT_DIR$/CONTRIBUTING.md" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/brainiac_libs/__init__.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/rar/rar.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/ssh.py" />
@@ -169,7 +248,6 @@
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/arquivo.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores2.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_gera_wordlist/gera_wordlist.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_convert/conf_conver.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_convert/convert.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_decode/conf_decode.py" />
@@ -178,8 +256,11 @@
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_hash_encode/hash_encode.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_encode/encode.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_decode/decode.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py" />
         <option value="$PROJECT_DIR$/brainiac/toplevel.py" />
+        <option value="$PROJECT_DIR$/brainiac/__init__.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/__init__.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py" />
       </list>
     </option>
   </component>
@@ -212,6 +293,34 @@
               <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
               <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_baixar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_cores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_debug" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -221,7 +330,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="brainiac_pwn" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="brainiac_pwn" />
+        <option name="myAddSourceRoots" value="true" />
+      </console-settings>
+    </option>
+    <option name="myShowDebugConsoleByDefault" value="true" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySaveCallSignatures" value="true" />
+    <option name="mySupportGeventDebugging" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -247,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hash_encode">
+  <component name="RunManager" selected="Python.baixar">
     <configuration name="baixar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,11 +470,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.hash_encode" />
-        <item index="1" class="java.lang.String" itemvalue="Python.encode" />
-        <item index="2" class="java.lang.String" itemvalue="Python.decode" />
-        <item index="3" class="java.lang.String" itemvalue="Python.cores" />
-        <item index="4" class="java.lang.String" itemvalue="Python.baixar" />
+        <item index="0" class="java.lang.String" itemvalue="Python.baixar" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cores" />
+        <item index="2" class="java.lang.String" itemvalue="Python.hash_encode" />
+        <item index="3" class="java.lang.String" itemvalue="Python.encode" />
+        <item index="4" class="java.lang.String" itemvalue="Python.decode" />
       </list>
     </recent_temporary>
   </component>
@@ -523,34 +646,44 @@
       <option name="project" value="LOCAL" />
       <updated>1521390654736</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="lib brainiac&#10;&#10;(cherry picked from commit e3d448a)">
+      <created>1522102310919</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1522102310919</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1372" height="691" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40775988" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35192308" sideWeight="0.5151515" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17123288" sideWeight="0.4973939" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34760273" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04280822" sideWeight="0.4973939" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.4848485" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34867257" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21223564" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PTest View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Graph" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.6730564" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40775988" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21223564" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="QuickSloth" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Graph" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Julia Document" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40785497" sideWeight="0.51086956" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="PTest View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="1024 Tools" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21061946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -627,7 +760,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="lib brainiac" />
-    <option name="LAST_COMMIT_MESSAGE" value="lib brainiac" />
+    <MESSAGE value="lib brainiac&#10;&#10;(cherry picked from commit e3d448a)" />
+    <option name="LAST_COMMIT_MESSAGE" value="lib brainiac&#10;&#10;(cherry picked from commit e3d448a)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,11 +800,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brainiac/1990262-brainiac-114144.jpg" />
-    <entry file="file://$PROJECT_DIR$/brainiac/__init__.py" />
     <entry file="file://$PROJECT_DIR$/.pypirc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -725,7 +859,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/utils/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/__init__.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_services/ssh.py">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -747,15 +880,7 @@
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/darkcode" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/&#10;dsdsa&#10;dsa&#10;das&#10;d&#10;ad&#10;asd&#10;asd&#10;as&#10;das&#10;da&#10;d&#10;asd&#10;a&#10;sda&#10;sd&#10;asd&#10;as&#10;das&#10;da&#10;sd&#10;asd&#10;as&#10;das&#10;" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/ds" />
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/arquivo.py">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores2.py" />
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_convert/conf_conver.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_cores/conf_colors.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_decode/conf_decode.py" />
@@ -783,42 +908,182 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_encode/encode.py">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_decode/decode.py">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/arquivo.py">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/__init__.py">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac/__init__.py">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brainiac/toplevel.py">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#124#897#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="204">
+            <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <folding>
+              <element signature="e#124#897#1" expanded="false" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="141">
+            <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="-119">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="192">
+            <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <folding>
+              <element signature="e#0#11#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-119">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
         </state>
       </provider>
     </entry>

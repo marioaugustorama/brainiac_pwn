@@ -1,6 +1,6 @@
 import wget
-from brainiac_libs.utils.debug import Debug
-from brainiac_libs.utils.cores import Cores
+from brainiac_libs.brainiac_debug import debug
+from brainiac_libs.brainiac_cores import cores
 import os
 
 
@@ -20,13 +20,14 @@ class Baixar():
                 local = "/tmp"
                 Debug.AVISO(local)
                 arquivo = wget.download(url=url, out=local)
-                print(Cores.amarelo + "=> " + Cores.verde + arquivo)
+                Cores.cores("azul","=>")
+                Cores.cores("azul",arquivo)
             except Exception:
                 pass
         else:
             local = saida
             Debug.AVISO(local)
             arquivo = wget.download(url=url, out=local)
-            print(Cores.amarelo + "=> " + Cores.verde + arquivo)
-
+            Cores.cores("azul", "=>")
+            Cores.cores("azul", arquivo)
 Baixar.baixar("http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png","/tmp")
