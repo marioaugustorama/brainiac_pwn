@@ -1,7 +1,18 @@
 #by:darkcode0x00
 from setuptools import setup, find_packages
 from distutils.core import setup
-
+from brainiac_libs.brainiac_cores.cores import Cores
+from brainiac_libs.brainiac_debug.debug import Debug
+import platform
+from os import getuid
+if getuid() != 0:
+    Debug.CRITICAL("rode como root")
+    Debug.AVISO("sudo python setup.py install")
+    exit(1)
+dist = ["debian","ubuntu","arch"]#linux
+for i in dist:
+    if i == platform.dist()[0]:
+        Cores.cores("vermelho","=> [%s]"%i)
 setup(
   name = 'brainiac_pwn',
   packages=find_packages(),
