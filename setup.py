@@ -48,13 +48,13 @@ setup(
         'intervaltree',
         'unicorn'
     ],
-  version = '3.6',
+  version = '3.7',
   description='lib voltada para o desenvolvimento de ferramentas de pentest',
   author='darkcode0x00',
   author_email='darkcode357@gmail.com',
   license='MIT',
   url = 'https://github.com/darkcode357/brainiac_pwn', # use the URL to the github repo
-  download_url = 'https://raw.githubusercontent.com/darkcode357/brainiac_pwn/master/dist/brainiac_pwn-3.6-py3-none-any.whl', # I'll explain this in a second
+  download_url = 'https://raw.githubusercontent.com/darkcode357/brainiac_pwn/master/dist/brainiac_pwn-3.7-py3-none-any.whl', # I'll explain this in a second
 )
 
 
