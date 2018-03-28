@@ -1,6 +1,5 @@
 import logging
-from brainiac_libs.brainiac_cores.cores import *
-
+from brainiac_libs.brainiac_cores.cores import Cores
 class Debug:
     """ex:brainiac_debug
             brainiac_utils.brainiac_debug.INFO() # obtem informacoes sobre o processo
@@ -18,17 +17,17 @@ class Debug:
         self.CRITICAL = CRITICAL
 
     def ERRO(self):
-        cores("vermelho","Erro: "+self)
+        Cores.cores("vermelho","Erro: "+self)
 
     def INFO(self):
-        cores("amarelo", "INFO: "+self)
+        Cores.cores("amarelo", "INFO: "+self)
 
     def CRITICAL(self):
-        cores("vermelho", "CRITICAL: "+self)
+        Cores.cores("vermelho", "CRITICAL: "+self)
 
     def AVISO(self):
-        cores("ciano", "AVISO: "+self)
+        Cores.cores("amarelo", "AVISO: "+self)
 
     def DEBUG(self):
-        cores("azul", "DEBUG: "+self)
+        Cores.cores("azul", "DEBUG: "+self)
 
