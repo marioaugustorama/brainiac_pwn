@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gera_wordlist.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gera_wordlist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_gera_wordlist/gera_wordlist.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
@@ -56,6 +56,22 @@
                 <folding />
               </first_editor>
               <second_editor relative-caret-position="-119">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/__init__.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </second_editor>
@@ -152,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/brainiac_libs/utils/test.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/tools/tooplevel.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/utils/__init__.py" />
         <option value="$PROJECT_DIR$/setup.cfg" />
@@ -203,6 +218,7 @@
         <option value="$PROJECT_DIR$/brainiac/test.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/__init__.py" />
+        <option value="$PROJECT_DIR$/test/__init__.py" />
       </list>
     </option>
   </component>
@@ -250,6 +266,11 @@
             <path>
               <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
               <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -598,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522465802245</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="lib brainiac">
+      <created>1522466073730</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1522466073730</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -711,7 +739,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/tools/Netcat.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/tools/__init__.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_baixar/__init__.py" />
     <entry file="file://$PROJECT_DIR$/brainiac/brainiac-2.jpg">
@@ -1058,6 +1085,20 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
         </state>
       </provider>
     </entry>
