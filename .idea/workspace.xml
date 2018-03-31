@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46c92e96-5dd6-49ec-a40a-7b67f3178c39" name="Default" comment="lib brainiac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/brainiac/__init__" afterPath="$PROJECT_DIR$/brainiac/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,15 +29,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brainiac_libs/__init__.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="153">
-                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                 <folding>
                   <element signature="e#0#50#0" expanded="true" />
                 </folding>
+              </first_editor>
+              <second_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gera_wordlist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_gera_wordlist/gera_wordlist.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="258">
+                <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="-119">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ssh.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/shh/ssh.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="70" />
+                <folding />
               </first_editor>
               <second_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -219,16 +250,6 @@
             <path>
               <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
               <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -570,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522263656904</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="lib brainiac">
+      <created>1522465802245</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1522465802245</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -763,7 +791,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/rar/rar.py" />
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/shh/ssh.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/gera/__init__.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/gera/gera.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_arquivo/darkcode" />
@@ -784,13 +811,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_gera_wordlist/gera_wordlist.py">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -976,11 +996,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac/__init__">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/__init__.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="153">
-            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
             <folding>
               <element signature="e#0#50#0" expanded="true" />
             </folding>
@@ -1000,11 +1028,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac/__init__">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/shh/ssh.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="70" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_gera_wordlist/gera_wordlist.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="258">
+            <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="-119">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
         </state>
       </provider>
     </entry>
