@@ -2,31 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c92e96-5dd6-49ec-a40a-7b67f3178c39" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ajp_fuzz/ajp_fuzz.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/dns_forward/dns_forward.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/dns_reverse/dns_reverse.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ftp_login/ftp_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/http_fuzz/http_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ike_enum/ike_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ldap_login/ldap_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mssql_login/mssql_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mysql_login/mysql_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mysql_query/mysql_query.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/oracle_login/oracle_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/pgsql_login/pgsql_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/pop_login/pop_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/pop_passd/pop_passd.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/rdp_login/rdp_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/rlogin_login/rlogin_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smb_login/smb_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smb_lookupsid/smb_lookupsid.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smtp_login/smtp_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/snmp_login/snmp_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ssh_login/ssh_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/telnet_login/telnet_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vmauthd_login/vmauthd_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vnc_login/vnc_login.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_casandra/brf_casandra.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ajp_fuzz/ajp_fuzz.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_DB2/brf_DB2.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/dns_forward/dns_forward.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_Oracle/brf_oracle.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/dns_reverse/dns_reverse.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mangodb/brf_mangodb.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ftp_login/ftp_login.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mysql/brf_mysql.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/http_fuzz/http_login.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_postgresql/brf_postgresql.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ike_enum/ike_login.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_sqlserver/brf_sqlserver.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ldap_login/ldap_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mssql_login/mssql_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mysql_login/mysql_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mysql_query/mysql_query.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/oracle_login/oracle_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/pgsql_login/pgsql_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/pop_login/pop_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/pop_passd/pop_passd.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/rdp_login/rdp_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/rlogin_login/rlogin_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smb_login/smb_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smb_lookupsid/smb_lookupsid.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smtp_login/smtp_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/snmp_login/snmp_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ssh_login/ssh_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/telnet_login/telnet_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vmauthd_login/vmauthd_login.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vnc_login/vnc_login.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +38,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rdp_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/rdp_login/rdp_login.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/__init__.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="398">
+                <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+                <folding />
+              </first_editor>
+              <second_editor relative-caret-position="-119">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brf_oracle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_Oracle/brf_oracle.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="0">
@@ -53,8 +70,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rlogin_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/rlogin_login/rlogin_login.py">
+      <file leaf-file-name="brf_mysql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mysql/brf_mysql.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="0">
@@ -69,8 +86,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smb_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smb_login/smb_login.py">
+      <file leaf-file-name="brf_sqlserver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_sqlserver/brf_sqlserver.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="0">
@@ -85,8 +102,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smb_lookupsid.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smb_lookupsid/smb_lookupsid.py">
+      <file leaf-file-name="brf_postgresql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_postgresql/brf_postgresql.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="0">
@@ -101,8 +118,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smtp_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/smtp_login/smtp_login.py">
+      <file leaf-file-name="brf_mangodb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mangodb/brf_mangodb.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="0">
@@ -117,8 +134,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snmp_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/snmp_login/snmp_login.py">
+      <file leaf-file-name="brf_DB2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_DB2/brf_DB2.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="0">
@@ -133,56 +150,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ssh_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ssh_login/ssh_login.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="telnet_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/telnet_login/telnet_login.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vmauthd_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vmauthd_login/vmauthd_login.py">
-          <provider selected="true" editor-type-id="live-pycharm">
-            <state>
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vnc_login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vnc_login/vnc_login.py">
+      <file leaf-file-name="brf_casandra.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_casandra/brf_casandra.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
               <first_editor relative-caret-position="0">
@@ -211,6 +180,9 @@
       <find>python</find>
       <find>16</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mangodb</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -226,13 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_decode/conf_decode.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_encode/conf_encode.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_hash_encode/conf_hash.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_hash_encode/hash_encode.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_encode/encode.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_decode/decode.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_cores/cores.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/version.py" />
@@ -277,12 +242,19 @@
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/telnet_login/telnet_login.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vmauthd_login/vmauthd_login.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vnc_login/vnc_login.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_Oracle/brf_oracle.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mysql/brf_mysql.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_sqlserver/brf_sqlserver.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_postgresql/brf_postgresql.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mangodb/brf_mangodb.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_DB2/brf_DB2.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_casandra/brf_casandra.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="517" />
-    <option name="y" value="127" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="954" />
+    <option name="y" value="71" />
     <option name="width" value="1160" />
     <option name="height" value="666" />
   </component>
@@ -344,205 +316,6 @@
             <path>
               <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
               <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="ajp_fuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="dns_forward" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="dns_reverse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="ftp_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="http_fuzz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="ike_enum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="ldap_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="mssql_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql_query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="oracle_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="pgsql_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="pop_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="pop_passd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="rdp_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="rlogin_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="smb_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="smb_lookupsid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="smtp_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="snmp_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="ssh_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="telnet_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="vmauthd_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
-              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="services_brute_force" type="462c0819:PsiDirectoryNode" />
-              <item name="vnc_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -566,15 +339,15 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/brainiac" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/database_bruteforce" />
       <recent name="$PROJECT_DIR$/brainiac_libs/brainiac_gera_payloads/singles" />
       <recent name="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force" />
       <recent name="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/shh" />
       <recent name="$PROJECT_DIR$/brainiac_libs" />
-      <recent name="$PROJECT_DIR$/brainiac_libs/utils/encode" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/brainiac" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -956,22 +729,29 @@
       <option name="project" value="LOCAL" />
       <updated>1522646073788</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="brainiac_brute_force">
+      <created>1522646454937</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1522646454937</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="0" width="1340" height="769" extended-state="6" />
+    <frame x="954" y="71" width="1160" height="666" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.50541794" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31433824" sideWeight="0.50629497" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.49458206" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31433824" sideWeight="0.49370503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.4848485" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.083462134" sideWeight="0.48374614" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="PTest View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Graph" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.6730564" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49071208" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5701439" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21028037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21223564" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1102,82 +882,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_baixar/baixar.py">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.pypirc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac/test.py" />
-    <entry file="file://$PROJECT_DIR$/brainiac/__init__" />
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_gera_wordlist/gera_wordlist.py">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="107" column="29" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="119">
-            <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            <folding />
-          </first_editor>
-          <second_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/__init__.py">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          </first_editor>
-          <second_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/shh/ssh.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brainiac/brainiac-2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1430,24 +1134,10 @@
           <first_editor relative-caret-position="340">
             <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             <folding>
-              <element signature="e#17#60#0" expanded="true" />
+              <element signature="e#17#60#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="live-pycharm">
-        <state>
-          <first_editor relative-caret-position="271">
-            <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-            <folding />
-          </first_editor>
-          <second_editor relative-caret-position="-119">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </second_editor>
@@ -1552,7 +1242,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mssql_login/mssql_login.py">
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/database_bruteforce/mssql_login/mssql_login.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="0">
@@ -1566,7 +1256,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mysql_login/mysql_login.py">
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/database_bruteforce/mysql_login/mysql_login.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="0">
@@ -1580,7 +1270,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/mysql_query/mysql_query.py">
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/database_bruteforce/mysql_query/mysql_query.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="0">
@@ -1594,7 +1284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/oracle_login/oracle_login.py">
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/database_bruteforce/oracle_login/oracle_login.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="0">
@@ -1608,7 +1298,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/pgsql_login/pgsql_login.py">
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/database_bruteforce/pgsql_login/pgsql_login.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="0">
@@ -1777,6 +1467,118 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/vnc_login/vnc_login.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="398">
+            <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="-119">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_Oracle/brf_oracle.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mysql/brf_mysql.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_sqlserver/brf_sqlserver.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_postgresql/brf_postgresql.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mangodb/brf_mangodb.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_DB2/brf_DB2.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_casandra/brf_casandra.py">
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
           <first_editor relative-caret-position="0">
