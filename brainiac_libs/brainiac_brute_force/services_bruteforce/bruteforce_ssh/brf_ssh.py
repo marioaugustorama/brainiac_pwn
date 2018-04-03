@@ -1,5 +1,4 @@
 import paramiko
-from brainiac_libs.brainiac_debug.debug import Debug
 import sys,os,socket
 import itertools
 from brainiac_libs.brainiac_debug.debug import Debug
@@ -30,13 +29,14 @@ class Ssh_brute:
                         Debug.AVISO("[+] Success! %s => %s"%(user,passw))
                         break
                     except socket.gaierror:
-                        print("invalid host!")
+                        Debug.ERRO("[+]HOST INVALIDO")
                         break
                     except paramiko.AuthenticationException:
                         Debug.ERRO("[-] falha:%s => %s"%(user,passw))
                     except paramiko.ssh_exception.SSHException:
-                        print("erro")
+                        Debug.ERRO("[+]SSHException")
                         pass
                 else:
                     pass
 
+Ssh_brute.ssh_brute("localhost","brainiac",2,3,"dsa",True)
