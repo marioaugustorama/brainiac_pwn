@@ -4,7 +4,8 @@
     <list default="true" id="46c92e96-5dd6-49ec-a40a-7b67f3178c39" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ftp/brf_ftp.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ftp/brf_ftp.py" />
-      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ssh/brf_ssh.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ssh/brf_ssh.py" />
+      <change beforePath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py" afterPath="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py" />
+      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,41 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="brf_ssh.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ssh/brf_ssh.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#206#376#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="debug.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,7 +57,6 @@
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_cores/conf_colors.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_cryptography/test.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_cryptography/cryptography.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/test/__init__.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ajp_fuzz/ajp_fuzz.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/dns_forward/dns_forward.py" />
@@ -127,17 +93,18 @@
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/gera/gera.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smb/brf_smb.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py" />
-        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py" />
         <option value="$PROJECT_DIR$/test/test.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ssh/brf_ssh.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py" />
         <option value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ftp/brf_ftp.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="736" />
-    <option name="y" value="36" />
-    <option name="width" value="1152" />
+    <option name="x" value="496" />
+    <option name="y" value="41" />
+    <option name="width" value="1318" />
     <option name="height" value="661" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -200,6 +167,13 @@
               <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
               <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
               <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
+              <item name="database_bruteforce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
               <item name="services_bruteforce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,12 +182,23 @@
               <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
               <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
               <item name="services_bruteforce" type="462c0819:PsiDirectoryNode" />
-              <item name="bruteforce_ssh" type="462c0819:PsiDirectoryNode" />
+              <item name="bruteforce_ftp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
               <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
+              <item name="services_bruteforce" type="462c0819:PsiDirectoryNode" />
+              <item name="bruteforce_smtp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brainiac_pwn" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_libs" type="462c0819:PsiDirectoryNode" />
+              <item name="brainiac_brute_force" type="462c0819:PsiDirectoryNode" />
+              <item name="services_bruteforce" type="462c0819:PsiDirectoryNode" />
+              <item name="bruteforce_ssh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="brainiac_pwn" type="b2602c69:ProjectViewProjectNode" />
@@ -278,6 +263,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="brf_smtp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="brainiac_pwn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="brf_ssh" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,24 +317,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="brainiac_pwn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,19 +336,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gera" />
-      <item index="2" class="java.lang.String" itemvalue="Python.brf_ssh" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.brf_ftp" />
+      <item index="0" class="java.lang.String" itemvalue="Python.gera" />
+      <item index="1" class="java.lang.String" itemvalue="Python.brf_ssh" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.brf_ftp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.brf_smtp" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.brf_ftp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.brf_ssh" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gera" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.brf_smtp" />
+        <item index="2" class="java.lang.String" itemvalue="Python.brf_ssh" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.gera" />
       </list>
     </recent_temporary>
   </component>
@@ -668,21 +653,28 @@
       <option name="project" value="LOCAL" />
       <updated>1522716352534</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="brainiac_brute_force&#10;ftp[+]&#10;ssh[+]">
+      <created>1522718558163</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1522718558163</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="0" width="1340" height="769" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22019742" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25208807" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3431221" sideWeight="0.42027864" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26429674" sideWeight="0.49458206" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.4848485" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2843895" sideWeight="0.5797214" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21223564" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21169177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.6730564" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39876354" sideWeight="0.49690402" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -690,7 +682,7 @@
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Graph" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Julia Document" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40785497" sideWeight="0.51086956" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Julia Document" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40785497" sideWeight="0.51086956" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="QuickSloth" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -769,7 +761,8 @@
     <MESSAGE value="gera payloads" />
     <MESSAGE value="brainiac_cryptography" />
     <MESSAGE value="brainiac_brute_force" />
-    <option name="LAST_COMMIT_MESSAGE" value="brainiac_brute_force" />
+    <MESSAGE value="brainiac_brute_force&#10;ftp[+]&#10;ssh[+]" />
+    <option name="LAST_COMMIT_MESSAGE" value="brainiac_brute_force&#10;ftp[+]&#10;ssh[+]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,13 +826,6 @@
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_cryptography/test.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/version.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_cryptography/cryptography.py" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/ajp_fuzz/ajp_fuzz.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/dns_forward/dns_forward.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_brute_force/dns_reverse/dns_reverse.py" />
@@ -877,15 +863,6 @@
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_DB2/brf_DB2.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/database_bruteforce/bruteforce_mangodb/brf_mangodb.py" />
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smb/brf_smb.py" />
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py" />
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_services/ssh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -894,24 +871,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ssh/brf_ssh.py">
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_debug/debug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#206#376#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ftp/brf_ftp.py">
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="262">
+          <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -920,6 +892,47 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ftp/brf_ftp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#399#726#0" expanded="false" />
+            <element signature="e#416#649#0" expanded="false" />
+            <element signature="e#678#726#0" expanded="false" />
+            <element signature="e#804#1280#0" expanded="false" />
+            <element signature="e#1346#1577#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_smtp/brf_smtp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#183#355#0" expanded="false" />
+            <element signature="e#440#1099#0" expanded="false" />
+            <element signature="e#711#1099#0" expanded="false" />
+            <element signature="e#1172#1578#0" expanded="false" />
+            <element signature="e#1213#1578#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brainiac_libs/brainiac_brute_force/services_bruteforce/bruteforce_ssh/brf_ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#206#376#0" expanded="false" />
+            <element signature="e#464#2424#0" expanded="false" />
+            <element signature="e#2480#3284#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

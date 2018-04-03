@@ -58,6 +58,7 @@ setup(
         'IPy',
         'pysnmp',
         'pyasn1',
+        'pysmb'
     ],
   version = '3.7',
   description='lib voltada para o desenvolvimento de ferramentas de pentest',
