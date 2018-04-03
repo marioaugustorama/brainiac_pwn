@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4491" />
+    <option name="totalTimeSeconds" value="4680" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -23,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="346">
-                <caret line="62" column="3" lean-forward="false" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+              <first_editor relative-caret-position="266">
+                <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -699,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522735401123</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add test para lembrar oque falta ser codado">
+      <created>1522735883830</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1522735883830</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1153,7 +1160,7 @@
           <first_editor relative-caret-position="208">
             <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding>
-              <element signature="e#0#38#0" expanded="true" />
+              <element signature="e#0#38#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor relative-caret-position="0">
@@ -1169,7 +1176,7 @@
           <first_editor relative-caret-position="72">
             <caret line="18" column="59" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="59" />
             <folding>
-              <element signature="e#6#26#0" expanded="true" />
+              <element signature="e#6#26#0" expanded="false" />
             </folding>
           </first_editor>
           <second_editor relative-caret-position="-168">
@@ -1204,7 +1211,7 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="77" selection-end-column="124" />
             <folding>
-              <element signature="e#17#60#0" expanded="true" />
+              <element signature="e#17#60#0" expanded="false" />
               <element signature="e#411#503#0" expanded="false" />
               <element signature="e#724#862#0" expanded="false" />
               <element signature="e#942#1773#0" expanded="false" />
@@ -1220,8 +1227,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="346">
-            <caret line="62" column="3" lean-forward="false" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          <first_editor relative-caret-position="266">
+            <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />

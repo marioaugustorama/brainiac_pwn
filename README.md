@@ -47,18 +47,18 @@ O metodo de instalacao conta com uma metodo de auto detect para fazer a devidas 
 atualmente suportada em distro bases(debian(deb)/ubuntu(deb)) base(arch-linux(pkg))
 
 temos 2 tipos de instalacao
-'''
+```
 #1=[instalacao via github]
 #1-1 git clone https://github.com/darkcode357/brainiac_pwn
 #1-2 cd brainiac_pwn
 #2 python 
 #2-1 import brainiac  
-2=[instalacao via pip/easy_install]
-2-1 easy_install3 brainiac_pwn
-2-2 pip3 install brainiac_pwn
-apt-get update
-apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
-'''
+#2=[instalacao via pip/easy_install]
+#2-1 easy_install3 brainiac_pwn
+#2-2 pip3 install brainiac_pwn
+#apt-get update
+#apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
+
 ```
 No entanto, alguns dos recursos (assembling/disassembling foreign architectures) exigem dependências não-Python. Para mais informações, veja o #[complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
 
