@@ -9,15 +9,23 @@
 
 brainiac_pwn e uma biblioteca de desenvovimento mult-plataforma , voltado para o desenvovimento de ferrementas, ajudando profisionais 
 ```python
-from brainiac import *
-from brainiac import brainiac_pwn
-from brainiac import brainiac_web
-from brainiac import brainiac_payloads
-from brainiac import brainiac_tools
-from brainiac import brainiac_conver
-from brainiac import brainiac_utils
-from brainiac import brainiac_colors
-```
+from brainiac import * # importa todos os modulos
+#importa um modulo especifico para poupar a memoria 
+from brainiac_libs.brainiac_brute_force.services_bruteforce.bruteforce_smtp.brf_smtp import Smtp_brute
+from brainiac_libs.brainiac_brute_force.services_bruteforce.bruteforce_ftp.brf_ftp import ftp_brute
+from brainiac_libs.brainiac_brute_force.services_bruteforce.bruteforce_ssh.brf_ssh import Ssh_brute
+#add smb_brute
+
+from brainiac_libs.brainiac_debug.debug import Debug
+from brainiac_libs.brainiac_cores.cores import Cores
+#brainiac_services
+from brainiac_libs.brainiac_hash_encode.hash_encode import Hash_encode
+from brainiac_libs.brainiac_gera_wordlist.gera_wordlist import Gera_wordlist
+from brainiac_libs.brainiac_encode.encode import Encode
+from brainiac_libs.brainiac_decode.decode import Decode
+from brainiac_libs.brainiac_convert.convert import Convert
+from brainiac_libs.brainiac_baixar.baixar import Baixar
+from brainiac_libs.brainiac_arquivo.arquivo import Arquivos
 
 # tente agora
 
@@ -43,6 +51,8 @@ temos 2 tipos de instalacao
 1=[instalacao via github]
 1-1 git clone https://github.com/darkcode357/brainiac_pwn
 1-2 cd brainiac_pwn
+2 python
+2-1 import brainiac ou 
 
 2=[instalacao via pip/easy_install]
 2-1 easy_install3 brainiac_pwn

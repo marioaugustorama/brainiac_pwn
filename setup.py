@@ -4,6 +4,10 @@ from distutils.core import setup
 from brainiac_libs.brainiac_cores.cores import Cores
 from brainiac_libs.brainiac_debug.debug import Debug
 import platform
+from distutils.command.install import INSTALL_SCHEMES
+from distutils.sysconfig import get_python_inc
+from distutils.util import convert_path
+import os
 from os import getuid
 if getuid() != 0:
     Debug.CRITICAL("rode como root")
@@ -13,6 +17,11 @@ dist = ["debian","ubuntu","arch"]#linux
 for i in dist:
     if i == platform.dist()[0]:
         Cores.cores("vermelho","=> [%s]"%i)
+PythonH = os.path.join(get_python_inc(), 'Python.h')
+if not os.path.exists(PythonH):
+    print(sys.stderr,"You must install the Python development headers!")
+    print(sys.stderr,"$ apt-get install python-dev")
+    sys.exit(-1)
 setup(
   name = 'brainiac_pwn',
   packages=find_packages(),
