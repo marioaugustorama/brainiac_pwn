@@ -27,50 +27,50 @@ from brainiac_libs.brainiac_convert.convert import Convert
 from brainiac_libs.brainiac_baixar.baixar import Baixar
 from brainiac_libs.brainiac_arquivo.arquivo import Arquivos
 
-# tente agora
+# Tente agora
 
-Agora você pode fazer uma demonstração ao vivo de brainiac_pwn, #[right in your browser](https://demo.pwntools.com).
+Agora você pode fazer uma demonstração ao vivo do brainiac_pwn, [right in your browser](https://demo.pwntools.com).
 
-# Documentacao
+# Documentação
 
 Our documentation is available at [docs.pwntools.com](https://docs.pwntools.com/)
 
 To get you started, we've provided some example solutions for past CTF challenges in our [write-ups repository](https://github.com/Gallopsled/pwntools-write-ups).
 
-# instalacao
+# instalação
 
-O brainiac_pwn tem A maioria das funcionalidades deve funcionar em qualquer distribuição semelhante a Posix (Debian, Arch, FreeBSD, OSX, etc.). É necessário o Python 3.6.
+O brainiac_pwn tem a maioria das funcionalidades deve funcionar em qualquer distribuição baseado em POSIX (Debian, Arch, FreeBSD, OSX, etc.). É necessário o Python 3.6.
 
-A maior parte da funcionalidade do brainiac_pwn é autônoma e somente rodara com o python 3.6
+A maior parte das funcionalidade do brainiac_pwn é autônoma e somente rodará com o python 3.6
 ```
-O metodo de instalacao conta com uma metodo de auto detect para fazer a devidas configuracoes em sua maquina
+O método de instalação conta com um auto detect que ira proceder as devidas configurações em sua máquina
 atualmente suportada em distro bases(debian(deb)/ubuntu(deb)) base(arch-linux(pkg))
 
-temos 2 tipos de instalacao
+Temos 2 tipos de instalação:
 ```
 #1=[instalacao via github]
 #1-1 git clone https://github.com/darkcode357/brainiac_pwn
 #1-2 cd brainiac_pwn
 #2 python 
 #2-1 import brainiac  
-#2=[instalacao via pip/easy_install]
+#2=[Instalação via pip/easy_install]
 #2-1 easy_install3 brainiac_pwn
 #2-2 pip3 install brainiac_pwn
 #apt-get update
 #apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
 
 ```
-No entanto, alguns dos recursos (assembling/disassembling foreign architectures) exigem dependências não-Python. Para mais informações, veja o #[complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
+No entanto, alguns dos recursos (assembling/disassembly foreign architectures) exigem dependências não-Python. Para mais informações, veja o #[complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
 
 
-# Contribuicao
+# Contribuição:
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-# erros
-Se voce tiver alguma duvida por favor entre em contato atraver do  [bug report](https://github.com/darkcode357/brainiac_pwn/issues)
+# Erros
+Se você tiver alguma dúvida por favor entre em contato através do [bug report](https://github.com/darkcode357/brainiac_pwn/issues)
 
-# canais de contatos
-[facebook_page](https://www.facebook.com/brainiacpwntoolkit/) atualizacoes sobre a lib
+# Canais de contato:
+[facebook_page](https://www.facebook.com/brainiacpwntoolkit/) atualizações sobre a lib
 
 [facebook_grupo](https://www.facebook.com/groups/1775847809390476/) debates/comunidade
 

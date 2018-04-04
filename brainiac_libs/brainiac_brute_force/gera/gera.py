@@ -2,11 +2,11 @@
 import errno
 import itertools
 import os
-class Gera_wordlist():
+class GeraWordlist():
     """
     gerador de wordlist totalmente customizado
     ex:
-        Gera_wordlist.Gera(i,i,str,str,verbose=True/False)
+        GeraWordlist.Gera(i,i,str,str,verbose=True/False)
         i = inteiro
         str = string
         verbose = True/false
@@ -71,7 +71,7 @@ class Gera_wordlist():
         self.nome=nome
 
     def Gera(minimo,maximo,char,nome,verbose=""):
-        #validacao
+        #validação
         if minimo == 0:
             print("[erro]=[numero maior que zero ou nada]")
             pass

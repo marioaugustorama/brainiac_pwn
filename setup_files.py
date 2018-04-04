@@ -147,7 +147,7 @@ def wordlist():
         wget.download(i,out="brainiac_suport_file/wordlist/metasploit")
         cont = glob.glob("brainiac_suport_file/wordlist/metasploit/*.*")
     print("")
-    print("numero de wordlist [%s]"%len(cont))
+    print("Número de wordlist [%s]"%len(cont))
 
 def install_web():
 

@@ -9,6 +9,8 @@ from .toplevel import *
 import socket
 import ipgetter
 import sys
+
+
 class check_brainiac:
 
     def ipi():
@@ -63,7 +65,7 @@ class check_brainiac:
             if exist == 0:
                 pass
             else:
-                print("efetue a instalacao do [%s]"%cmd)
+                print("Efetue a instalação do [%s]"%cmd)
                 exit(1)
         Debug.INFO("[+]check programas =>[ok]")
 
@@ -88,9 +90,9 @@ else:
         check_brainiac.check_files_()
     else:
         print("[+]modo padrao ctf_online")
-    Cores.cores("amarelo","[+]use help() para ter mais informacoes")
+    Cores.cores("amarelo","[+]use help() para ter mais informações")
     Cores.cores("vermelho","###############################")
-    Cores.cores("azul","[+]iniaciando checking")
+    Cores.cores("azul","[+]Iniciando Checking")
     check_brainiac.is_connected()
     check_brainiac.ipe()
     check_brainiac.ipi()

@@ -9,7 +9,7 @@ from brainiac_libs.brainiac_debug.debug import Debug
 from brainiac_libs.brainiac_cores.cores import Cores
 #brainiac_services
 from brainiac_libs.brainiac_hash_encode.hash_encode import Hash_encode
-from brainiac_libs.brainiac_gera_wordlist.gera_wordlist import Gera_wordlist
+from brainiac_libs.brainiac_gera_wordlist.gerawordlist import GeraWordlist
 from brainiac_libs.brainiac_encode.encode import Encode
 from brainiac_libs.brainiac_decode.decode import Decode
 from brainiac_libs.brainiac_convert.convert import Convert

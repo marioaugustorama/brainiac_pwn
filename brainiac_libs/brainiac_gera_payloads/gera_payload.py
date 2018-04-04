@@ -3,34 +3,36 @@ from stagers.brainiac_stagers_python import array_stagers
 from stages.brainiac_stages_python import array_stages
 from brainiac_libs.brainiac_cores.cores import Cores
 from brainiac_libs.brainiac_debug.debug import Debug
-class Gera_Payloads:
-    def __init__(self,payload,LHost,LPort,encode=""):
+
+
+class GeraPayloads:
+    def __init__(self,payload,lhost,lport,encode=""):
         self.payload=payload
-        self.LHost=LHost
-        self.LPost=LPort
+        self.lhost=lhost
+        self.lpost=lport
         self.encode=encode
     def list():
         for payload in array_stages:
-            Cores.cores("vermelho","=> "+payload)
+            cores.cores("vermelho","=> " + payload)
         for payload in array_stagers:
-            Cores.cores("amarelo","=> "+payload)
+            cores.cores("amarelo","=> " + payload)
         for payload in array_single:
-            Cores.cores("azul","=> "+payload)
+            cores.cores("azul","=> " + payload)
 
 
     def gera(payload,lhost,lport,encode=""):
         if payload in array_stages:
             if payload == "brainiac_stages_full":
-                Debug.CRITICAL("[+] gerando payload [+]")
-                Debug.INFO    ("nome => "+payload)
-                Cores.cores("azul","[+]informacoes sobre o payload[+]")
-                Cores.cores("verde","LHOST  => "+str(lhost))
-                Cores.cores("verde","LPORT  => "+str(lport))
-                if encode != None:
-                    Cores.cores("verde","Encode => " + str(encode))
+                debug.critical("[+] gerando payload [+]")
+                debug.info    ("nome => " + payload)
+                cores.cores("azul","[+]informações sobre o payload[+]")
+                cores.cores("verde","lhost  => " + str(lhost))
+                cores.cores("verde","lport  => " + str(lport))
+                if encode != none:
+                    cores.cores("verde","encode => " + str(encode))
 
                 else:
-                    Cores.cores("verde","Encode[recomendo usar]")
+                    cores.cores("verde","encode[recomendo usar]")
                 def code():
                     with open("/tmp/brainiac_stages_full.py","w") as py:
                         dsa = """dsadsadsadsadsa

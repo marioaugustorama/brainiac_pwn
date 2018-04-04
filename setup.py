@@ -70,7 +70,7 @@ setup(
         'pysmb'
     ],
   version = '3.7',
-  description='lib voltada para o desenvolvimento de ferramentas de pentest',
+  description='lib voltada para o desenvolvimento de ferramentas para pentest',
   author='darkcode0x00',
   author_email='darkcode357@gmail.com',
   license='MIT',

@@ -3,11 +3,11 @@ import errno
 import itertools
 import os
 from brainiac_libs.brainiac_debug.debug import Debug
-class Gera_wordlist():
+class GeraWordlist():
     """
     gerador de wordlist totalmente customizado
     ex:
-        Gera_wordlist.Gera(i,i,str,str,verbose=True/False)
+        GeraWordlist.Gera(i,i,str,str,verbose=True/False)
         i = inteiro
         str = string
         verbose = True/false
@@ -16,12 +16,13 @@ class Gera_wordlist():
         x2=[x]=[maximo de caracteres]
         str1[str]=[caracteres[abcde...etc]]
         str2[str]=[nome da wordlist]
-        verbose=True[se vc habilitar o verbose vc podera ver a saida da sua wordlist]
+        verbose=True[se você habilitar o verbose, poderá ver a saída de sua wordlist]
 
-    exemplo:
-        Gera_wordlist.Gera(1,2,"abc123","test",verbose=True)
-    saida:
-    a
+    Exemplo:
+       GeraWordlist.Gera(1,2,"abc123","test",verbose=True)
+
+    Saída:
+
     b
     c
     1

@@ -17,7 +17,7 @@ class Arquivos():
     def escrever(arquivo,escrever):
         with open(arquivo,"w") as ll:
             ll.write(escrever)
-            Debug.CRITICAL("brainiac_arquivo: "+arquivo)
+            Debug.CRITICAL("brainiac_arquivo: " + arquivo)
 
             Debug.CRITICAL("escrita")
     def escrever_encode64(arquivo,escrever):
@@ -25,22 +25,22 @@ class Arquivos():
             encode = b64encode(bytes(escrever, 'utf-8'))
             decode = str(encode)[2:-1]
             ll.write(decode)
-            Debug.INFO("Arquivo: "+arquivo)
+            Debug.INFO("Arquivo: " + arquivo)
 
-            Debug.CRITICAL("escrita "+decode)
+            Debug.CRITICAL("escrita " + decode)
 
     def escrever_encode32(arquivo,escrever):
         with open(arquivo,"w") as ll:
             encode = b32encode(bytes(escrever, 'utf-8'))
             decode = str(encode)[2:-1]
             ll.write(decode)
-            Debug.CRITICAL("Arquivo: "+arquivo)
-            Debug.CRITICAL("escrita "+decode)
+            Debug.CRITICAL("Arquivo: " + arquivo)
+            Debug.CRITICAL("escrita " + decode)
     def escrever_encode16(arquivo,escrever):
         with open(arquivo,"w") as ll:
             encode = b16encode(bytes(escrever, 'utf-8'))
             decode = str(encode)[2:-1]
             ll.write(decode)
-            Debug.CRITICAL("brainiac_arquivo: "+arquivo)
-            Debug.CRITICAL("escrita "+decode)
+            Debug.CRITICAL("brainiac_arquivo: " + arquivo)
+            Debug.CRITICAL("escrita " + decode)
 
