@@ -44,24 +44,24 @@ To get you started, we've provided some example solutions for past CTF challenge
 O brainiac_pwn tem a maioria das funcionalidades deve funcionar em qualquer distribuição baseado em POSIX (Debian, Arch, FreeBSD, OSX, etc.). É necessário o Python 3.6.
 
 A maior parte das funcionalidade do brainiac_pwn é autônoma e somente rodará com o python 3.6
-```
+
 O método de instalação conta com um auto detect que ira proceder as devidas configurações em sua máquina
 atualmente suportada em distro bases(debian(deb)/ubuntu(deb)) base(arch-linux(pkg))
 
 Temos 2 tipos de instalação:
-```
-#1=[instalacao via github]
-#1-1 git clone https://github.com/darkcode357/brainiac_pwn
-#1-2 cd brainiac_pwn
-#2 python 
-#2-1 import brainiac  
-#2=[Instalação via pip/easy_install]
-#2-1 easy_install3 brainiac_pwn
-#2-2 pip3 install brainiac_pwn
-#apt-get update
-#apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
 
-```
+1. Instalação pelo source:
+    1. git clone https://github.com/darkcode357/brainiac_pwn
+    2. cd brainiac_pwn
+    3. python import brainiac  
+
+2. Instalação via pip/ea3_install
+    1. apt-get update
+    2. apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
+    3. easy_install3 brainiac_pwn
+    4. pip3 install brainiac_pwn
+
+
 No entanto, alguns dos recursos (assembling/disassembly foreign architectures) exigem dependências não-Python. Para mais informações, veja o #[complete installation instructions here](https://docs.pwntools.com/en/stable/install.html).
 
 
