@@ -7,7 +7,8 @@
 [![Twitter](https://img.shields.io/badge/twitter-pwntools-4099FF.svg?style=flat)](https://twitter.com/pwntools)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
 
-brainiac_pwn  e uma biblioteca de desenvovimento mult-plataforma , voltado para o desenvovimento de ferrementas, ajudando profisionais 
+brainiac_pwn é uma biblioteca de desenvolvimento multi-plataforma , voltado para o desenvolvimento de ferramentas.
+
 ```python
 from brainiac import * # importa todos os modulos
 #importa um modulo especifico para poupar a memoria 
@@ -26,6 +27,7 @@ from brainiac_libs.brainiac_decode.decode import Decode
 from brainiac_libs.brainiac_convert.convert import Convert
 from brainiac_libs.brainiac_baixar.baixar import Baixar
 from brainiac_libs.brainiac_arquivo.arquivo import Arquivos
+```
 
 # Tente agora
 
