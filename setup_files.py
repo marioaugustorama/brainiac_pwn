@@ -1,10 +1,16 @@
+# coding=utf-8
 import glob
 import os.path
+import os.path
 from os import system as sy
-def metasploit():
+
+
+
+
+
+def wordlist():
     import wget
-    try:
-        urlsMetas = [
+    urlsMetas = [
         'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/adobe_top100_pass.txt',
         'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/av-update-urls.txt',
         'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/av_hips_executables.txt',
@@ -69,7 +75,7 @@ def metasploit():
         'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/vxworks_collide_20.txt',
         'https://raw.githubusercontent.com/rapid7/metasploit-framework/master/data/wordlists/vxworks_common_20.txt',
         ]
-        nomes_metasploit = [
+    nomes_metasploit = [
         'adobe_top100_pass.txt',
         'av-update-urls.txt',
         'av_hips_executables.txt',
@@ -134,15 +140,76 @@ def metasploit():
         'vxworks_collide_20.txt',
         'vxworks_common_20.txt',
     ]
-        
-        for i in nomes_metasploit:
-            if os.path.isfile("/tmp/"+i) == True:
-                pass
-        print("ok")
-    except Exception:
-        for i in urlsMetas:
-            print(wget.download(i, out="brainiac"))
-            cont = glob.glob("/tmp/*.*")
+    print("instalando wordlist[+]")
+    for a in nomes_metasploit:
+        pass
+    for i in urlsMetas:
+        wget.download(i,out="brainiac_suport_file/wordlist/metasploit")
+        cont = glob.glob("brainiac_suport_file/wordlist/metasploit/*.*")
+    print("")
+    print("numero de wordlist [%s]"%len(cont))
+
+def install_web():
+
+    print("[+]iniciando a instalacao =>[web]<=")
+    if os.path.exists("brainiac_suport_file") == False:
+        os.makedirs("brainiac_suport_file")
+    else:
+        print("[pass]=[arquivos[ok]]")
+    if os.path.exists("brainiac_suport_file/wordlist") ==False:
+        print("add=> brainiac_suport_file/wordlist[+]")
+        os.makedirs("brainiac_suport_file/wordlist")
+    else:
+        print("[pass]=[brainiac_suport_file/wordlist[ok]]")
+    if os.path.exists("brainiac_suport_file/wordlist/metasploit") == False:
+        print("add=> brainiac_suport_file/wordlist/metasploit[+]")
+        os.makedirs("brainiac_suport_file/wordlist/metasploit")
+    else:
+        print("[pass]=[brainiac_suport_file/wordlist/metasploit[ok]]")
+    if os.path.exists("brainiac_suport_file/wordlist/sec_wordlist") == False:
+        print("add brainiac_suport_file/wordlist/sec_wordlist[+]")
+        os.makedirs("brainiac_suport_file/wordlist/sec_wordlist")
+    else:
+        print("[pass]=[brainiac_suport_file/wordlist/sec_word_list[ok]]")
+
+
+    print("=> inicinado verificacao de diretorios para  o donwloads dos arquivos....[+]")
+
+    if os.path.isdir("brainiac_suport_file") == True:
+        print("check 1-de-4[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+
+    if os.path.isdir("brainiac_suport_file") == True:
+        print("check 2-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+    if os.path.isdir("brainiac_suport_file/wordlist") == True:
+        print("check 3-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+    if os.path.isdir("brainiac_suport_file/wordlist/metasploit") == True:
+        print("check 4-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+    if os.path.isdir("brainiac_suport_file/wordlist/sec_wordlist") == True:
+        print("check 5-de-5[ok]")
+    else:
+        print("erro[criacao de diretorios]")
+        exit()
+def main():
+    install_web()
+    wordlist()
+main()
+
+
+
+
+
 
 
 

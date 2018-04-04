@@ -1,6 +1,48 @@
 # This requirements.txt file simply hits the setup.py file and
-# installs the 'install_requires' python modules, the magic command
-# to do that is simply '-e .': so here it is
+# installs the install_requires python modules the magic command
+# to do that is simply -e .: so here it is
 
 # Amazing command
--e .
+#-e .
+beautifulsoup4
+requests
+filemagic
+passlib
+hexdump
+pymysql
+cx_Oracle
+psycopg2
+pymongo
+wget
+python-nmap
+GitPython
+nclib
+paramiko
+mako
+pyelftools
+capstone
+ropgadget
+pyserial
+requests
+pip
+tox
+rarfile
+pygments
+pysocks
+python-dateutil
+packaging
+psutil
+intervaltree
+unicorn
+pycurl
+ajpy
+pyopenssl
+cx_Oracle
+mysqlclient
+psycopg2
+pycrypto
+dnspython
+IPy
+pysnmp
+pyasn1
+pysmb
