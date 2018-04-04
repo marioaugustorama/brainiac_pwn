@@ -21,6 +21,9 @@ from brainiac_libs.brainiac_arquivo.arquivo import Arquivos
 
 
 
+#brainiac_priv all add aqui os modulos privado do seu toolkit
+from brainiac_priv import *
+
 
 
 

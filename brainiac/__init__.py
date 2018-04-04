@@ -67,7 +67,11 @@ class check_brainiac:
                 exit(1)
         Debug.INFO("[+]check programas =>[ok]")
 
-
+    def check_fil():
+        if os.path.exists("brainiac_suport_file") == True:
+            pass
+        else:
+            os.system("python setup_files.py")
 
 if not platform.architecture()[0].startswith('64'):
     """Determina se o interpretador atual do Python é suportado pelo Brainiac"""
@@ -93,3 +97,4 @@ else:
     check_brainiac.check_python_version()
     check_brainiac.check_gcc_version()
     check_brainiac.check_programas()
+    check_brainiac.check_fil()

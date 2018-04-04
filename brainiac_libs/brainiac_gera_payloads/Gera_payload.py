@@ -38,11 +38,6 @@ dasddsa"""
                         py.writelines("\n"+dsa+"\n")
 
                 code()
-
-
-
-
-
         elif payload in array_stagers:
             print(payload)
         elif payload in array_single:
