@@ -2048,6 +2048,9 @@ captures/
 .idea/gradle.xml
 .idea/dictionaries
 .idea/libraries
+.idea/brainiac_pwn.iml
+.idea/misc.xml
+.idea/workspace.xml
 
 # Keystore files
 # Uncomment the following line if you do not want to check your keystore files in.
